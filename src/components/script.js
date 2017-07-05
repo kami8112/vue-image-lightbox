@@ -27,6 +27,11 @@ export default {
       default: true,
     },
 
+    showButtons: {
+        type: Boolean,
+        default: true,
+    },
+
     // Mode
     autoPlay: {
       type: Boolean, 

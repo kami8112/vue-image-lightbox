@@ -90,7 +90,9 @@
       </button>
     </div> <!-- .vue-lb-thumbnail -->
     </div>
-    <button 
+      <p>{{select}}</p>
+    <button
+      v-if="select>0 && countImages>1"
       type="button" 
       class="vue-lb-arrow vue-lb-left" 
       title="Previous" 
@@ -103,7 +105,8 @@
       </span>
     </button>
 
-    <button 
+    <button
+      v-if="select<countImages-1 && countImages>1"
       type="button" 
       class="vue-lb-arrow vue-lb-right" 
       title="Next" 
