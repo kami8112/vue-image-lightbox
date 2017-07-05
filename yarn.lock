@@ -4404,6 +4404,13 @@ vue-hot-reload-api@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.1.0.tgz#9ca58a6e0df9078554ce1708688b6578754d86de"
 
+vue-image-lightbox-b1@^5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/vue-image-lightbox-b1/-/vue-image-lightbox-b1-5.6.1.tgz#3ba15b4618518a151f0ccb60b022a4f7289cccd6"
+  dependencies:
+    vue-lazyload "^1.0.3"
+    vue-touch next
+
 vue-lazyload@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/vue-lazyload/-/vue-lazyload-1.0.3.tgz#6bd881a5bf3c681e74e86190094cad104bc403fa"

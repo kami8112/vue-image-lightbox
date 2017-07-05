@@ -1,7 +1,7 @@
 {
   "name": "vue-image-lightbox-b1",
   "description": "A Vue.js package to display an image gallery lightbox",
-  "version": "5.6.1",
+  "version": "5.6.2",
   "author": "mrBorek",
   "license": "MIT",
   "main": "dist/vue-image-lightbox.min.js",
@@ -54,6 +54,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "vue-image-lightbox-b1": "^5.6.1",
     "vue-lazyload": "^1.0.3",
     "vue-touch": "next"
   }

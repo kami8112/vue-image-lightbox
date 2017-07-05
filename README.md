@@ -19,8 +19,8 @@ yarn dev
 Install the package:
 
 ```
-npm install vue-image-lightbox vue-lazyload vue-touch@next
-yarn add vue-image-lightbox vue-lazyload vue-touch@next
+npm install vue-image-lightbox-b1 vue-lazyload vue-touch@next
+yarn add vue-image-lightbox-b1 vue-lazyload vue-touch@next
 ```
 
 Then import it in your project
@@ -36,7 +36,7 @@ Vue.use(VueTouch, { name: 'v-touch' })
 
 and use the lightbox:
 ```javascript
-import Lightbox from 'vue-image-lightbox'
+import Lightbox from 'vue-image-lightbox-b1'
 
 export default {
   components: {
